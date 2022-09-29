@@ -12,7 +12,7 @@ function ExpoBabelConfig(api) {
       ['babel-preset-expo', { lazyImports: true }],
     ],
     plugins: [
-      // ["@babel/plugin-proposal-class-properties"],
+      ["@babel/plugin-proposal-class-properties"],
       // 'react-native-reanimated/plugin',                 // MUST BE LAST!!!
     ],
   }
